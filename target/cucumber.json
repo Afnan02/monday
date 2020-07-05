@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Verify User should be in Account Page",
+        "description": "",
+        "id": "account-page-functionality;verify-user-should-be-in-account-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3290135801,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Launch \"\u003curl\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003curl\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "AccountSteps.launch(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 361022700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click on Account",
+            "match": {
+              "location": "AccountSteps.user_click_on_Account()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1721112300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on Signin button",
+            "match": {
+              "location": "AccountSteps.click_on_Signin_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 309271799,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enter \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cusername\u003e",
+                  "offset": 12
+                },
+                {
+                  "val": "\u003cpassword\u003e",
+                  "offset": 29
+                }
+              ],
+              "location": "AccountSteps.user_enter_and_password(String,String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137277599,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click on The Signin button",
+            "match": {
+              "location": "AccountSteps.click_on_The_Signin_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Account Page Functionality",
+    "description": "This Feature deal with the Signin functionality",
+    "id": "account-page-functionality",
+    "keyword": "Feature",
+    "uri": "Features/Account.feature"
+  }
+]
